@@ -1,9 +1,10 @@
 import React from 'react';
 import './style.css';
 import Table from './components/table';
+const a = process.env.REACT_APP_NOT_SECRET_CODE;
 export default function App() {
   const getTodosById = () => {
-    console.log(process.env.REACT_APP_NOT_SECRET_CODE);
+    console.log(a, 'sss');
   };
   return (
     <div>
